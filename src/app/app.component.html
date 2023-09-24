@@ -1,65 +1,75 @@
 <p>homepage works!</p>
 <div>
-    <div>
-        Inserisci i tuoi dati
-        <form>
-            <label for="fname">Nome:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Cognome:</label><br>
-            <input type="text" id="lname" name="lname">
-        </form>
-    </div>
-
-    <p>Rispondi alle seguenti domande:</p>
-
-    <div>
-        Quale stagione dell'anno preferisci?
-        <form action="">
-            <input type="radio" id="html" name="fav_season" value="autunno">
-            <label for="html">autunno</label><br>
-            <input type="radio" id="css" name="fav_season" value="inverno">
-            <label for="css">inverno</label><br>
-            <input type="radio" id="javascript" name="fav_season" value="primavera">
-            <label for="javascript">primavera</label><br>
-            <input type="radio" id="javascript" name="fav_season" value="estate">
-            <label for="javascript">estate</label>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
-    </div><br>
-
-    <hr><br>
-    <div>
-        <form action="" method="post" name="eseform">
-            cognome e nome:
-            <input type="text" name="nome" size="50" maxlength="50">
-            <br>
-            sesso:
-            <input type="radio" name="sesso" value="M">M
-            <input type="radio" name="sesso" value="F">F
-            <br>
-            ateneo:
-            <select name="ateneo">
-            <option value="nessuno" selected></option>
-            <option value="sapienza">La Sapienza</option>
-            <option value="torvergata">Tor Vergata</option>
-            <option value="romatre">Roma Tre</option>
-            </select>
-            
-            <br>
-            CAP:
-            <input type="text" name="cap" size="5" maxlength="5">
-            <br>
-            sono uno studente lavoratore
-            <input type="checkbox" name="lavoratore">
-            <br>
-            descrizione lavoro:
-            <input type="text" name="descr" size="80" maxlength="80">
-            <br>
-            <br>
-            <input type="submit" value="Invia">
-            <input type="reset" value="Reset">
+    <nav>
+        <a href="">
+            <li>Home</li>
+            <li>Contatti</li>
+        </a>
+    </nav>
+    <div class="principale">
+        <div>
+            Inserisci i tuoi dati
+            <form class="datiUser">
+                <label for="fname">Nome:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Cognome:</label><br>
+                <input type="text" id="lname" name="lname">
             </form>
-            
+        </div>
+
+        <p>Rispondi alle seguenti domande:</p>
+
+        <div>
+            Quale stagione dell'anno preferisci?
+            <form action="" class="formStagioni">
+                <input type="radio" id="html" name="fav_season" value="autunno">
+                <label for="html">autunno</label><br>
+                <input type="radio" id="css" name="fav_season" value="inverno">
+                <label for="css">inverno</label><br>
+                <input type="radio" id="javascript" name="fav_season" value="primavera">
+                <label for="javascript">primavera</label><br>
+                <input type="radio" id="javascript" name="fav_season" value="estate">
+                <label for="javascript">estate</label><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div><br>
+
+        <hr><br>
+        <div>
+            <form action="" method="post" name="eseform">
+                cognome e nome:
+                <input type="text" name="nome" size="50" maxlength="50">
+                <br>
+                sesso:
+                <input type="radio" name="sesso" value="M">M
+                <input type="radio" name="sesso" value="F">F
+                <br>
+                ateneo:
+                <select name="ateneo">
+                    <option value="nessuno" selected></option>
+                    <option value="sapienza">La Sapienza</option>
+                    <option value="torvergata">Tor Vergata</option>
+                    <option value="romatre">Roma Tre</option>
+                </select>
+
+                <br>
+                CAP:
+                <input type="text" name="cap" size="5" maxlength="5">
+                <br>
+                sono uno studente lavoratore
+                <input type="checkbox" name="lavoratore">
+                <br>
+                descrizione lavoro:
+                <input type="text" name="descr" size="80" maxlength="80">
+                <br>
+                <br>
+                <input type="submit" value="Invia">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
     </div>
+    <footer>
+        scritto da giusy
+    </footer>
 </div>

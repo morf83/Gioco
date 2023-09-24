@@ -5,6 +5,42 @@ h1 {
 
 footer{
     margin:30px;
-   
+    background-color: aquamarine;
     justify-items: center;
+    text-align: center;
 }
+
+nav {
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+
+.principale {
+    width: 70%;
+    height: 100%;
+    background-color: antiquewhite;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+  }
+
+.datiUser {
+    display: inline-flex;
+    padding:10px;
+    margin: 5px;
+}
+.formStagioni {
+    display: inline-flex;
+    padding:10px;
+    margin: 5px;
+}
+/*
+.formStagioni input {
+    margin: 5px;
+}
+*/
